@@ -53,11 +53,6 @@ export class ConfigManagementStack extends Stack {
             Value: 'RESOURCE_ID',
           },
         },
-        IpAddressToBlock: {
-          StaticValue: {
-            Value: '0.0.0.0/0'
-          },
-        },
       },
       resourceType: 'AWS::EC2::SecurityGroup',
     });
